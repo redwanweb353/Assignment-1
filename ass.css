@@ -1,4 +1,8 @@
 /* shared style */
+*{
+    margin: 0;
+    padding: 0;
+}
 .raleway {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -52,6 +56,7 @@ header{
     justify-content: space-between;
     padding-left:  150px;
     padding-right: 150px;
+    padding-top: 50px;
 
 }
 ul li{
@@ -102,6 +107,9 @@ main{
     margin-top: 23px;
     
 }
+.action-btn{
+    margin-top: 23px;
+}
 .action-img{
     border-radius: 48px;
 }
@@ -125,6 +133,7 @@ main{
     font-size: 38px;
     font-weight: bold;
     padding-top: 50px;
+    padding-bottom: 40px;
     
 }
 .user{
@@ -139,4 +148,55 @@ main{
     margin-top: 0;
     padding-bottom: 50px;
     
+}
+.feedback-section{
+    margin-top: 137px;
+    margin-bottom:137px ;
+
+}
+.feedback-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    padding-bottom: 50px;
+}
+.feedback-container{
+    display: flex;
+    gap:20px ;
+}
+.star{
+    margin-top: 10px;
+}
+.feedback-card{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(242, 237, 237, 1);
+    border-radius: 14px;
+    padding: 24px;
+    color: rgba(30, 30, 30, 1);
+}
+.feedback-name{
+    padding-top: 24px;
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+.feedback-description{
+    padding-bottom: 24px;
+}
+.feedback-holder{
+    display: flex;
+    gap: 12px;
+}
+.reviewer{
+    border-radius: 50%;
+}
+.star{
+    gap: 4px;
+}
+.name{
+    color: rgba(117, 117, 117, 1);
+    font-weight: bold;
+}
+.date{
+    color: rgba(179, 179, 179, 1);
 }
