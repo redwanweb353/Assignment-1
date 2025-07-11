@@ -200,3 +200,27 @@ main{
 .date{
     color: rgba(179, 179, 179, 1);
 }
+.focus-better-section{
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 14px;
+    margin-bottom: 83px;
+}
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 71px;
+    padding-bottom:20px;
+}
+.focus-description{
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+}
+.focus-better-section button{
+    font-weight:400;
+    margin-bottom: 20px;
+}
+.focus-img{
+    border-radius: 48px;
+    margin-bottom:71px ;
+}
